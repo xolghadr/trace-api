@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3A42CB0D-CCE3-418E-84AF-14FC5BBFC59C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceApi.OpenTelemetry", "src\TraceApi.OpenTelemetry\TraceApi.OpenTelemetry.csproj", "{5DC1CA15-82D3-4B23-BD2C-BF7DCB62794A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceApi.WebApi", "src\TraceApi.WebApi\TraceApi.WebApi.csproj", "{F44C9C8F-C4E2-4D94-A198-B4027249F882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC1CA15-82D3-4B23-BD2C-BF7DCB62794A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC1CA15-82D3-4B23-BD2C-BF7DCB62794A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC1CA15-82D3-4B23-BD2C-BF7DCB62794A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC1CA15-82D3-4B23-BD2C-BF7DCB62794A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44C9C8F-C4E2-4D94-A198-B4027249F882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44C9C8F-C4E2-4D94-A198-B4027249F882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44C9C8F-C4E2-4D94-A198-B4027249F882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44C9C8F-C4E2-4D94-A198-B4027249F882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DC1CA15-82D3-4B23-BD2C-BF7DCB62794A} = {3A42CB0D-CCE3-418E-84AF-14FC5BBFC59C}
+		{F44C9C8F-C4E2-4D94-A198-B4027249F882} = {3A42CB0D-CCE3-418E-84AF-14FC5BBFC59C}
+	EndGlobalSection
+EndGlobal
